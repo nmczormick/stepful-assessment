@@ -3,8 +3,18 @@ Take Home Assessment for Stepful
 
 This take home assessment was completed using JavaScript, React, Node.js, Express, and PostgreSQL. For the UI components React Calendar was used to create the calendar and ChakraUI was used to create styled components.
 
-In order to run the assessment, navigate to the backend directory and run "npm run dev"
-Then in another terminal, open the frontend directory and run "npm run dev"
+Create a .env file in the root of the backend directory with: 
+PG_USER = postgres
+PG_HOST = localhost
+PG_DATABASE = postgres
+PG_PORT = 5432
+PG_PASSWORD = your password
+
+In order to run the assessment, navigate to the backend directory and run "npm i" and then "npm run dev"
+Then in another terminal, open the frontend directory and run "npm i" and "npm run dev"
+
+Troubleshooting:
+If the UI does not load, navigate to the App.jsx file in the front end directory and run "command + S" and the UI should display
 
 From the assessment, I was able to implement the following functionality in the 3 hour time frame:
 1. Coaches can view their own upcoming slots
@@ -20,6 +30,3 @@ Please find images of the implementation below:
 <img width="1081" alt="Screen Shot 2025-04-03 at 2 22 14 PM" src="https://github.com/user-attachments/assets/35048732-e1ec-4d69-a52b-ca341679691e" />
 
 Due to the nature of the features I implemented, I created and populated the users and events databases in order to build out the UI. 
-
-Troubleshooting:
-If the UI does not load, navigate to the App.jsx file in the front end directory and run "command + S" and the UI should display
